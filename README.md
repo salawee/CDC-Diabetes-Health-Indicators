@@ -28,6 +28,8 @@ The dataset used in this project comes from the Behavioral Risk Factor Surveilla
 ## Data Preparation and Class Distribution
 The BRFSS dataset includes several label configurations: a binary classification (diabetes vs. non-diabetes), a 50/50 split dataset, and a multi-class 012 dataset (0 = no diabetes, 1 = prediabetes, 2 = diabetes). The following image illustrates the distribution of diabetes classes across these datasets:
 
+![image](https://github.com/user-attachments/assets/98b6fc9c-0148-494a-8332-8220b2ae57e4)
+
 
 After reviewing the distributions, we chose the 012 multi-class dataset as the basis for our model. The 012 dataset provides a more nuanced understanding of diabetes risk by distinguishing prediabetes as an intermediate stage. This approach aligns with the project’s focus on early intervention, as predicting prediabetes allows for timely preventive actions that could delay or prevent the onset of diabetes. Additionally, the 012 dataset offers a balanced view of different stages, supporting more comprehensive public health strategies.
 
